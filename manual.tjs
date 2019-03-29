@@ -1,14 +1,14 @@
 /**
- * ‹[—ƒR[ƒh‚É‚æ‚éƒ}ƒjƒ…ƒAƒ‹
+ * æ“¬ä¼¼ã‚³ãƒ¼ãƒ‰ã«ã‚ˆã‚‹ãƒãƒ‹ãƒ¥ã‚¢ãƒ«
  */
 class System
 {
 	/**
-	 * ƒŒƒWƒXƒgƒŠ‚Éƒf[ƒ^‚ğ‘‚«‚İ‚Ü‚·
-	 * @param key ‘‚«‚İæ‚ÌƒL[(readRegValue ‚Æ“¯—l‚É HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\hoeg\installdir ‚Æw’è‚·‚é)
-	 * @param value ‘‚«‚Ş’l(•¶š—ñ–”‚Í®”’l)
+	 * ãƒ¬ã‚¸ã‚¹ãƒˆãƒªã«ãƒ‡ãƒ¼ã‚¿ã‚’æ›¸ãè¾¼ã¿ã¾ã™
+	 * @param key æ›¸ãè¾¼ã¿å…ˆã®ã‚­ãƒ¼(readRegValue ã¨åŒæ§˜ã« HKEY_LOCAL_MACHINEÂ¥SOFTWAREÂ¥MicrosoftÂ¥WindowsÂ¥CurrentVersionÂ¥UninstallÂ¥hoegÂ¥installdir ã¨æŒ‡å®šã™ã‚‹)
+	 * @param value æ›¸ãè¾¼ã‚€å€¤(æ–‡å­—åˆ—åˆã¯æ•´æ•°å€¤)
 	 */
 	function writeRegValue(key, value);
 
-	// ƒŒƒWƒXƒgƒŠ‚Ì“Ç‚İ‚İ‚ÍA‘g‚İ‚İ‚Ì System.readRegValue ‚ğg—p‚Ì‚±‚Æ
+	// ãƒ¬ã‚¸ã‚¹ãƒˆãƒªã®èª­ã¿è¾¼ã¿ã¯ã€çµ„ã¿è¾¼ã¿ã® System.readRegValue ã‚’ä½¿ç”¨ã®ã“ã¨
 };

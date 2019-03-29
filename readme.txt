@@ -1,14 +1,14 @@
 Title: registory Plugin
 Author: Kiyobee
 
-������͂ȂɁH
+●これはなに？
 
-Windows �̃��W�X�g���ɒl���������ނ��Ƃ��ł��܂��B
+Windows のレジストリに値を書き込むことができます。
 
-���g�p���@
+●使用方法
 
-manual.tjs ���Q�Ƃ̂��ƁB
+manual.tjs を参照のこと。
 
-�����C�Z���X
+●ライセンス
 
-���C�Z���X�͋g���g���{�̂ɏ������܂��B
+ライセンスは吉里吉里本体に準拠します。

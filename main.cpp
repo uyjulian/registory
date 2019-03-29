@@ -20,7 +20,7 @@ public:
 		if(numparams < 2)
 			return TJS_E_BADPARAMCOUNT;
 
-		// ƒ‹[ƒgƒL[‚ğŠm’è
+		// ãƒ«ãƒ¼ãƒˆã‚­ãƒ¼ã‚’ç¢ºå®š
 		ttstr		key	= param[0]->AsStringNoAddRef();
 		tjs_int		len = key.length();
 		ttstr		hkey= "";
@@ -52,7 +52,7 @@ public:
 		else if(hkey[5] == 'D')
 			hKey	= HKEY_DYN_DATA;
 
-		//	ƒL[–¼A’l–¼‚ğæ‚èo‚·
+		//	ã‚­ãƒ¼åã€å€¤åã‚’å–ã‚Šå‡ºã™
 		tjs_int	j;
 		for(j=len-1; j>=0; j--)
 		{
