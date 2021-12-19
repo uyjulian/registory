@@ -90,6 +90,11 @@ public:
 				res	= RegSetValueEx(hKey, valname.c_str(), 0, REG_DWORD, (LPBYTE)&value, sizeof(tjs_uint32));
 			}
 			break;
+		case tvtVoid:
+		case tvtObject:
+		case tvtOctet:
+		case tvtReal:
+			break;
 		}
 		RegCloseKey(hKey);
 
